@@ -1,17 +1,16 @@
 #Input data
 print("Data Pegawai PT. XYZ")
-print("*Silahkan Input Menggunakan Awalan Huruf Kapital")
 nama = input("Masukan Nama: ")
 agama = input("Masukan Agama: ")
 divisi = input("Masukan Divisi: ")
 jabatan = input("Masukan Jabatan: ")
 
 #Menentukan gaji pokok sesuai jabatan
-if jabatan == "Staff":
+if jabatan == "Staff" or jabatan == "staff":
    gapok = 4000000
-elif jabatan == "Kabag":
+elif jabatan == "Kabag" or jabatan == "kabag":
    gapok = 7000000
-elif jabatan == "Manajer":
+elif jabatan == "Manajer" or jabatan == "manajer":
    gapok = 10000000
 else:
    gapok = 0
